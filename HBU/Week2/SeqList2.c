@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define MAXSIZE 20
-typedef struct{
+typedef struct SeqList{
     int data[MAXSIZE];
     int last;
 }SeqList;
